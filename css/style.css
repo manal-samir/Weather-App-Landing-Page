@@ -1,0 +1,179 @@
+body{
+    background-image: linear-gradient(120deg, #FFFFFF, #F8FFFF, #ECFEFF, #DDFDFF);
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Poppins', sans-serif;
+    color:#1c1c1c;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    font-family: 'Poppins', sans-serif;
+    color:#4F7FFA;
+}
+
+.signin-btn{
+    border:none;
+}
+
+.signin-btn a{
+    font-family: 'Poppins', sans-serif;
+    color:#1c1c1c;
+    text-decoration: none;
+}
+
+.signin-btn a:hover{
+    color:#4F7FFA;
+}
+
+.trail-btn{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(20deg,#4F7FFA,#01effe);
+    border:none;
+    color:#fff;
+    animation-delay: 2s;
+    animation: 4s linear;
+}
+
+
+.trail-btn:hover{
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+    background-image: linear-gradient(300deg,#4F7FFA,#01effe);
+    animation-delay: 2s;
+    animation: 4s linear;
+}
+.google-play-button,.apple-store-button{
+    width:200px;
+   
+}
+
+
+.header-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    color:#4F7FFA;
+}
+
+
+.header-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 36px;
+    background: linear-gradient(20deg,#4F7FFA,#01effe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-img,.feature-img{
+    animation: size 2s infinite linear;
+}
+
+@keyframes size {
+    from {
+      transform: scale(1,1);
+    }
+    to {
+      transform: scale(1.05,1.05);
+    }
+  }
+
+.header-paragraph{
+    font-family: 'Poppins', sans-serif;
+  color:#1c1c1c;
+}
+
+.feature-heading, .testmonial-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(20deg,#4F7FFA,rgba(1, 239, 254));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.feature-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size: 24px;
+    color:#4F7FFA;
+}
+
+
+.feature-paragraph{
+    font-family: 'Poppins', sans-serif;
+    color:#1c1c1c;
+    line-height: 1.6;
+}
+
+
+.tetmonial-card {
+    box-shadow: 0px 5px 17px rgba(0, 0, 0,0.1);
+    border-radius: 5px;
+}
+.testmonial-name{
+    color:#4F7FFA;
+    font-size: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.testmonial-paragraph{
+    font-size: 'Poppins', sans-serif;
+    color:#1c1c1c;
+    font-weight: 300;
+}
+
+.testmonial-icon{
+    color:#FFD600;
+    font-size: 18px;
+}
+
+.testmonial-tabs{
+    background-color:#4F7FFA;
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.testmonial-tabs-border{
+    border:2px solid #4F7FFA;
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+.download-heading{
+    font-size: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+}
+
+.download-paragraph{
+    font-size: 'Poppins', sans-serif;
+    color:#fff;
+}
+.download-container{
+    background-image: linear-gradient(45deg,#4F7FFA,#01EFFE);
+}
+
+.footer-items-container ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 'Poppins', sans-serif;
+}
+.footer-items-container ul li a{
+    text-decoration: none;
+    color:#1c1c1c;
+    font-size: 'Poppins', sans-serif;
+  
+}
+
+.footer-items-container ul li a:hover{
+    color:#4F7FFA;
+    font-size: 'Poppins', sans-serif;
+  
+}
